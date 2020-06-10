@@ -11,8 +11,6 @@ div {
 
 #footer {
 	background-color: black;
-    /*text-align: center;*/
-    /*align-items: center;*/
     height: 60px
 }
 
@@ -21,13 +19,6 @@ div {
 	color: white;
     text-align: center;
     align-items: center;
-}
-
-.ShopIcon {
-	width: 30px;
-	margin-left: 40px;
-    height: 100px;
-    display:inline-flex;
 }
 
 #headContent1 {
@@ -62,6 +53,29 @@ div {
     color: white;
 }
 
+#footerContent {
+    margin-left: 10%;
+    display: inline-flex;
+    color: white;
+    line-height: 60px;
+}
+
+#container1 {
+    background-image:url("./../Pic/back.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.ShopIcon {
+	width: 30px;
+	margin-left: 40px;
+    height: 100px;
+    display:inline-flex;
+}
+
 .bannerPic {
 	display: block;
 	width: 100%;
@@ -74,13 +88,6 @@ div {
 	height: 40%;
     margin-bottom: 20px;
     justify-content: center;
-}
-
-#footerContent {
-    margin-left: 10%;
-    display: inline-flex;
-    color: white;
-    line-height: 60px;
 }
 
 .hatLogo {
@@ -97,13 +104,4 @@ div {
     margin-right: 40%;
     margin-top: 5%;
     margin-bottom: 10%
-}
-
-#container1 {
-    background-image:url("./../Pic/back.jpg");
-    background-size: cover;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    overflow: auto;
 }

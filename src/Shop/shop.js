@@ -1,11 +1,8 @@
 import React from 'react'
 import "./shop.css"
-import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import shopIcon from "./../Pic/shopIcon.png"
-import bannerPic from "./../Pic/banner.jpg"
 import hat from "./../Pic/hat.png"
-import hatLogo from "./../Pic/hatLogo.png"
 
 
 export class Shop extends React.Component {
@@ -18,7 +15,7 @@ export class Shop extends React.Component {
         return (
             <body id='container1'>
                 <div id="header">
-                    <img class='shopIcon' src={shopIcon}/>
+                    <img class='shopIcon' src={shopIcon} alt='shopIcon is not displayed properly'/>
                     <h2 id="headContent1">FASHION SHOP</h2>
                     <h4 id="headContent2">MAN</h4>
                     <h4 id="headContent3">WOMEN</h4>
@@ -29,7 +26,7 @@ export class Shop extends React.Component {
                     <h1 id="content"> LAST PARTIES OF 2019</h1>
              	</div>
                 <div className="container1">
-                    <img class='hatPic' src={hat}/> <span/><span/>
+                    <img class='hatPic' src={hat} alt='hatPic is not displayed properly'/> <span/><span/>
                     <h2>PURPLE CAP</h2> <span/>
                     <p>$30</p>
                     <Button variant="contained" color="secondary" htmlType="back" onClick={this.jump.bind(this)}>

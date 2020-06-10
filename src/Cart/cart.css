@@ -3,17 +3,6 @@ div {
     justify-content: center;
 }
 
-.ShopIcon {
-	width: 30px;
-	margin-left: 40px;
-    height: 100px
-}
-
-#billing {
-    margin-left: 33%;
-}
-
-
 table {
     border-collapse: collapse;
 }
@@ -29,29 +18,6 @@ table tr td:first-child {
 
 table tr td {
     background-color: transparent;
-}
-
-#header {
-	padding: 5px;
-	background-color: black;
-    height: 60px
-}
-
-#banner1 {
-    background-size: cover;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-    justify-content: center;
-}
-
-.hr1 {
-    height:1px;
-    border:none;
-    border-top:1px solid #555555;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 30px;
 }
 
 #content {
@@ -78,7 +44,6 @@ table tr td {
     width: 100%;
     overflow: auto;
 }
-
 
 #container3 {
     display:inline-block;
@@ -136,6 +101,39 @@ table tr td {
     margin-left: 100px;
     display: inline-flex;
     color: white;
+}
+
+#billing {
+    margin-left: 33%;
+}
+
+#header {
+	padding: 5px;
+	background-color: black;
+    height: 60px
+}
+
+#banner1 {
+    background-size: cover;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.ShopIcon {
+	width: 30px;
+	margin-left: 40px;
+    height: 100px
+}
+
+.hr1 {
+    height:1px;
+    border:none;
+    border-top:1px solid #555555;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 30px;
 }
 
 .container2 {
